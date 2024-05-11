@@ -1,26 +1,12 @@
 #include <iostream>
-#include "Log.h"
-
-class Log()
-{
-	Log()
-	{
-	}
-	
-
-	void SetLevel(int level) {
-
-	}
-
-
-};
+#include "Logheader.h"
 
 
 int main() 
 {
 
 	Log log;
-	log.levelWarning;
-	log.Warn("Attempt 1");
+	log.setLevel(Log::levelWarning);
+	log.Warning("Attempt 1");
 	std::cin.get();
 }
