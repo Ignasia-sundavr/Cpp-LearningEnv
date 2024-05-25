@@ -33,6 +33,6 @@ int main(){
 
 	Entity e;
 	e.Changepos(12, 14, 2);
-	e.Position;
+	e.Position();
 	std::cin.get();
 }
