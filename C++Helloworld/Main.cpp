@@ -1,12 +1,7 @@
 
 #include <iostream>
 #include "Log.h"
-
-
-void Log(const char* message)
-{
-	std::cout << message << std::endl;
-}
+#include "Calc.cpp"
 
 
 int main()
@@ -20,4 +15,6 @@ int main()
 	}
 	
 	std::cin.get();
+
+	return 0;
 }
