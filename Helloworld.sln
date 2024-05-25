@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++Helloworld", "C++Hellowo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logging", "Logging\Logging.vcxproj", "{B15F9D61-A5A6-4DF8-8DA8-4D8A02582E9D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Castle", "Castle\Castle.vcxproj", "{F93D884F-E682-4238-A071-0BA457C52483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B15F9D61-A5A6-4DF8-8DA8-4D8A02582E9D}.Release|x64.Build.0 = Release|x64
 		{B15F9D61-A5A6-4DF8-8DA8-4D8A02582E9D}.Release|x86.ActiveCfg = Release|Win32
 		{B15F9D61-A5A6-4DF8-8DA8-4D8A02582E9D}.Release|x86.Build.0 = Release|Win32
+		{F93D884F-E682-4238-A071-0BA457C52483}.Debug|x64.ActiveCfg = Debug|x64
+		{F93D884F-E682-4238-A071-0BA457C52483}.Debug|x64.Build.0 = Debug|x64
+		{F93D884F-E682-4238-A071-0BA457C52483}.Debug|x86.ActiveCfg = Debug|Win32
+		{F93D884F-E682-4238-A071-0BA457C52483}.Debug|x86.Build.0 = Debug|Win32
+		{F93D884F-E682-4238-A071-0BA457C52483}.Release|x64.ActiveCfg = Release|x64
+		{F93D884F-E682-4238-A071-0BA457C52483}.Release|x64.Build.0 = Release|x64
+		{F93D884F-E682-4238-A071-0BA457C52483}.Release|x86.ActiveCfg = Release|Win32
+		{F93D884F-E682-4238-A071-0BA457C52483}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
