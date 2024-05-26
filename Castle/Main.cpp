@@ -13,9 +13,9 @@ public:
 
 	void Changepos(float x,float y,float z) {
 
-		posX = posX + x;
-		posY = posY + y;
-		posZ = posZ + z;
+		posX += posX + x;
+		posY += posY + y;
+		posZ += posZ + z;
 	}
 
 	void Position() {
@@ -31,8 +31,8 @@ public:
 
 int main(){
 
-	Entity e;
-	e.Changepos(12, 14, 2);
-	e.Position;
+	Entity castle;
+	castle.Changepos(12, 14, 2);
+	castle.Position();
 	std::cin.get();
 }

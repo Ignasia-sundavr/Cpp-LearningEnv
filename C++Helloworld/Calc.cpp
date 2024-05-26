@@ -1,5 +1,5 @@
 
-#include <iostream>
+#include "Header.h"
 
 int Multiply(int a, int b)
 {
@@ -9,5 +9,5 @@ int Multiply(int a, int b)
 void Calculate(int a, int b)
 {
 	int result = Multiply(a, b);
-	std::cout << result << std::endl;
+	LogNum(result);
 }
