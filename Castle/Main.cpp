@@ -2,28 +2,24 @@
 
 class Entity 
 {
-
 private:
+	
+	float posX = 0.0f;
+	float posY = 0.0f;
+	float posZ = 0.0f;
 
-	float posX = 0;
-	float posY = 0;
-	float posZ = 0;
-
-public:
+	public:
 
 	void Changepos(float x,float y,float z) {
-
-		posX += posX + x;
-		posY += posY + y;
-		posZ += posZ + z;
+		posX += x;
+		posY += y;
+		posZ += z;
 	}
 
 	void Position() {
-
 		std::cout << "X = " << posX << std::endl;
 		std::cout << "Y = " << posY << std::endl;
 		std::cout << "Z = " << posZ << std::endl;
-
 	}
 
 };

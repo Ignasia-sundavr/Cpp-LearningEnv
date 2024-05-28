@@ -1,9 +1,24 @@
 #pragma once
 
-class Log
+struct Log
 {
 
+private:
+
+	bool m_InitLog = false;
+
 public:
+
+
+	Log()
+	{
+		m_InitLog = true;
+	}
+	
+	void IsInitialised() 
+	{
+		std::cout << "Initilised = " << m_InitLog << std::endl;
+	}
 
 	void Error(const char* message)
 	{

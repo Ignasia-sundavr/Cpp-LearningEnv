@@ -6,6 +6,7 @@ int main()
 {
 
 	Log log;
-	log.Info("Attempt 1");
+	log.IsInitialised();
+	log.Info("Started");
 	std::cin.get();
 }
